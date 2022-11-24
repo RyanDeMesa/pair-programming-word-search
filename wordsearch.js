@@ -25,7 +25,7 @@ const wordSearch = (letters, word) => {
 
     const vertialJoin = Vletters.map(ls => ls.join(''))
     for (v of vertialJoin) {
-        console.log('v ➤',v);
+        // console.log('v ➤',v);
         if (v.includes(word)) return true;
     }
     return false;
